@@ -1,0 +1,15 @@
+run = "npm run dev"
+modules = ["nodejs-20"]
+
+[gitHubCodeButton]
+showing = true
+
+[env]
+NODE_ENV = "development"
+PORT = "3000"
+
+[nix]
+channel = "stable-23_11"
+
+[unitTest]
+clickToDeploy = true
